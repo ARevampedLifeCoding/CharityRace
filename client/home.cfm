@@ -65,8 +65,6 @@
             Thats Awesome! Then click the Signup button to get started. <br />
             Unless you have been here before then Login.
           </p>
-          <p>Click the button</p>
-    <button id="test">The Button</button>
           <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</button>
           <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#login">Login</button>
         </div>
@@ -234,6 +232,11 @@
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
+    <script
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"
+></script>
     <script src="./app.js"></script>
   </body>
 </html>
