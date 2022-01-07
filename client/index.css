@@ -1,0 +1,7 @@
+
+
+@media screen and (max-width:768px) {
+    #road-map{
+        display: none;
+    }
+}

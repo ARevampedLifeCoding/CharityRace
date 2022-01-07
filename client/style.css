@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-image: url("./assets/img/ss-interview-bg.jpeg");
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.jumbotron{
+    margin-top: 175px;
+}
