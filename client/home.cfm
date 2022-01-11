@@ -17,6 +17,9 @@
     <!-- Nav bar with drop down menu -->
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary text-info fixed-top p-3">
       <a href="#" class="navbar-brand text-info">Charity Race</a>
+      <cfoutput>
+<!---    Will print first name here.      --->
+      </cfoutput>
       <button
         class="navbar-toggler"
         type="button"
@@ -44,6 +47,9 @@
             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Downloads
             </a>
+            <cfscript>
+              // dayOfWeek(date1)
+            </cfscript>
             <!-- <a href="path_to_file" download="proposed_file_name">Download</a> -->
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="https://drive.google.com/file/d/130gbME4c2uXDXPSruvHXKY2URQBErNXQ/view?usp=sharing" target="blank" download="https://drive.google.com/file/d/130gbME4c2uXDXPSruvHXKY2URQBErNXQ/view?usp=sharing" >Registration</a>
@@ -186,7 +192,25 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary" method="post" action="register.cfm">Login</button>
+<!--- This works and reroutes to the regiester page --->
+<!---         <form id="frm_firstForm" name="frm_firstForm" method="post" action="register.cfm"> 
+          <p>
+            <label for="fld_firstName">Your First Name</label>
+            <input type="text" name="fld_firstName" id="fld_firstName" />
+          </p>
+          <p>
+            <label for="fld_lastName">Your last name</label>
+            <input type="text" name="fld_lastName" id="fld_lastName" />
+          </p>
+          <p>
+            <label for="fld_age">Your age</label>
+            <input type="text" name="fld_age" id="fld_age" />
+          </p>
+          <p>
+            <input type="submit" name="fld_submitForm" id="fld_submitForm" value="Submit" />
+          </p>
+        </form> --->
       </div>
     </div>
   </div>
@@ -218,7 +242,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary signup-submit">Submit</button>
+        <button type="button" class="btn btn-primary signup">Submit</button>
       </div>
     </div>
   </div>
