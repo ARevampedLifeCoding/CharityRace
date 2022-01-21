@@ -152,7 +152,7 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="p-5 bg-secondary text-white text-center position-relative">
+<footer class="p-auto bg-secondary text-white text-center position-relative">
   <div class="container">
     <p class="lead">Copyright &copy; 2021 Charity Race</p>
           <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#login">Login</button>

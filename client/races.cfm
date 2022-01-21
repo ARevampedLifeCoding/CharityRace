@@ -85,7 +85,7 @@
       <button id="test">The Button</button>
  </section>
 <!-- FAQ Section using bootstrap accordion -->
-<section id="questions" class="p-5">
+<!--- <section id="questions" class="p-5">
   <div class="container">
     <h2 class="text-center mb-4">Frequently Asked Questions</h2>
     <div class="accordion accordion-flush" id="questions">
@@ -163,9 +163,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> --->
 <!-- Footer -->
-<footer class="p-5 bg-secondary text-white text-center position-relative">
+<footer class="p-auto bg-secondary text-white text-center fixed-bottom">
   <div class="container">
     <p class="lead">Copyright &copy; 2021 Charity Race</p>
     <a  class="btn btn-primary" href="./donations.cfm">Donate</a>

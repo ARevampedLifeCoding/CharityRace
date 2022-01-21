@@ -153,7 +153,7 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="p-5 bg-secondary text-white text-center position-relative">
+<footer class="p-5 bg-secondary text-white text-center fixed-bottom">
   <div class="container">
     <p class="lead">Copyright &copy; 2021 Charity Race</p>
     <a  class="btn btn-primary" href="./donations.cfm">Donate</a>
