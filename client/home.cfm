@@ -103,7 +103,7 @@
           data-bs-parent="#questions"
         >
           <div class="accordion-body">
-            You can always support you favorite charity buy visiting the website at <a href="https://www.thisisyourfavoritecharityiswearthisisarealsite.com" target="blank">"https://www.thisisyourfavoritecharityiswearthisisarealsite.com"</a>
+            You can always support you favorite charity buy visiting the website at <a href="https://www.thisIsYourFavoriteCharityISwearThisIsARealSite.com" target="blank">"https://www.thisisyourfavoritecharityiswearthisisarealsite.com"</a>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="p-1 bg-secondary text-white text-center  fixed-bottom">
+<footer class="p-auto bg-secondary text-white text-center  fixed-bottom">
   <div class="container">
     <p class="lead">Copyright &copy; 2021 Charity Race</p>
     <a  class="btn btn-primary" href="./donations.cfm">Donate</a>
@@ -193,8 +193,8 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary" method="post" action="register.cfm">Login</button>
-<!--- This works and reroutes to the regiester page --->
-<!---         <form id="frm_firstForm" name="frm_firstForm" method="post" action="register.cfm"> 
+<!--- This works and reroutes to the regiester page  needs to be added to modalcf--->
+<!---         <form id="frm_firstForm" name="frm_firstForm" method="post" action="register.cfm">  
           <p>
             <label for="fld_firstName">Your First Name</label>
             <input type="text" name="fld_firstName" id="fld_firstName" />
