@@ -225,7 +225,8 @@
       </div>
       <div class="modal-body">
         <p class="lead">Signup Here.</p>
-        <form action="#">
+<!---    Added the Method post to see if I could get the page to do anything      --->
+        <form method="POST" action="#">
             <div class="mb-3">
                 <label for="first-name" class="col-form-label">First Name:</label>
                 <input type="text" class="form-control" id="first-name">
