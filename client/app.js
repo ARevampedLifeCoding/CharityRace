@@ -1,9 +1,2 @@
-$(document).ready(() => {
-  $("#test").on("click", () => {
-    $("#test").hide();
-  });
+const signup = document.getElementById("#box")
 
-  $(".signup").on("click", () => {
-    $(".signup").hide();
-  });
-});
