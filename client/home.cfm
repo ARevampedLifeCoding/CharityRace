@@ -66,7 +66,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="p-5">
           <h1>Calling all who want to <span class="text-danger">help!</span></h1>
-          <p class="lead my-4">
+          <p class="lead my-4" id="box">
             ..... Is that you? <br />
             Thats Awesome! Then click the Signup button to get started. <br />
             Unless you have been here before then Login.
@@ -226,8 +226,10 @@
       <div class="modal-body">
         <p class="lead">Signup Here.</p>
 <!---    Added the Method post to see if I could get the page to do anything       --->
+
         <form method="POST" action="#">
             <div class="mb-3">
+              <div id="error_message" class="errormessage"></div>
                 <label for="first-name" class="col-form-label">First Name:</label>
                 <input type="text" class="form-control" id="first-name">
                 <label for="last-name" class="col-form-label">Last Name:</label>
@@ -262,6 +264,7 @@
  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
  crossorigin="anonymous"
 ></script>
-    <script src="./app.js"></script>
+    <script src="./jquerry.js"></script>
+<script src="./app.js"></script>
   </body>
 </html>

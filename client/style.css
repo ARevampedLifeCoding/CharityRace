@@ -14,3 +14,7 @@ h1 {
 .jumbotron{
     margin-top: 175px;
 }
+
+.invalid-input {
+    border: 1px solid red;
+}
