@@ -81,8 +81,7 @@
               <a href="./register.cfm" class="btn btn-primary">Register</a>
             </div>
       </div>
-      <p>Click the button</p>
-      <button id="test">The Button</button>
+      
  </section>
 <!-- FAQ Section using bootstrap accordion -->
 <!--- <section id="questions" class="p-5">

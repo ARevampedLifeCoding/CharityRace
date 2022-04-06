@@ -64,8 +64,7 @@
           <p class="lead my-4">
             
           </p>
-          <p>Click the button</p>
-    <button id="test">The Button</button>
+          
         </div>
         <img id="road-map" class="img-fluid w-50 mt-5"src="./assets/img/donations.svg" alt="Bank Vault">
         </div>
