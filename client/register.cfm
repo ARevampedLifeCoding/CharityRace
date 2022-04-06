@@ -60,8 +60,7 @@
           <div>
           <h1>Register!</h1>
           <cfoutput>This is a test to see if coldFusion works in a none coldFusion file!</cfoutput>
-          <p>Click the button</p>
-    <button id="test">The Button</button>
+          
           <p class="lead my-4">
         
             
