@@ -264,6 +264,13 @@
  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
  crossorigin="anonymous"
 ></script>
+<script>
+	window.fwSettings={
+	'widget_id':500157
+	};
+	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+</script>
+<script type='text/javascript' src='https://widget.freshworks.com/widgets/500157.js' async defer></script>
     <script src="./jquerry.js"></script>
 <script src="./app.js"></script>
   </body>
